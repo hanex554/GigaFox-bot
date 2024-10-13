@@ -22,13 +22,13 @@ pip install disnake aiosqlite
 1. Склонируйте этот репозиторий или скачайте его архивом:
 
 ```bash
-git clone https://github.com/yourusername/GigaFox.git
+git clone https://github.com/hanex554/GigaFox-bot.git
 ```
 
 2. Перейдите в папку проекта:
 
 ```bash
-cd GigaFox
+cd GigaFox-bot
 ```
 
 3. Внесите изменения в файл `main.py`. Найдите строку:
