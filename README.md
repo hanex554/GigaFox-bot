@@ -1,17 +1,62 @@
-# Discord Bot (GigaFox) with Disnake and AioSQLite
+# GigaFox Discord Bot
 
-This is a simple Discord bot built using the `disnake` library for interacting with the Discord API, and `aiosqlite` for asynchronous database management.
+GigaFox — это простой бот для Discord, созданный с использованием библиотеки `disnake` для взаимодействия с API Discord и `aiosqlite` для асинхронного управления базой данных.
 
-## Requirements
+## Требования
 
-To run this bot, you will need:
+Для запуска этого бота вам потребуется:
 
-- Python 3.12.3 or higher
-- The following Python libraries:
+- Python 3.12.3 или выше
+- Следующие библиотеки Python:
   - `disnake`
   - `aiosqlite`
 
-You can install these libraries using `pip`:
+Вы можете установить эти библиотеки с помощью `pip`:
 
 ```bash
 pip install disnake aiosqlite
+```
+
+## Настройка
+
+1. Склонируйте этот репозиторий или скачайте его архивом:
+
+```bash
+git clone https://github.com/yourusername/GigaFox.git
+```
+
+2. Перейдите в папку проекта:
+
+```bash
+cd GigaFox
+```
+
+3. Внесите изменения в файл `main.py`. Найдите строку:
+
+```python
+bot.run("TOKEN")
+```
+
+и замените `TOKEN` на токен вашего бота:
+
+```python
+bot.run("ВАШ_ТОКЕН")
+```
+
+## Запуск бота
+
+После настройки токена выполните следующую команду для запуска бота:
+
+```bash
+python main.py
+```
+
+## Особенности
+
+- Использует `disnake` для работы с Discord API.
+- Асинхронная работа с базой данных с помощью `aiosqlite`.
+- Простая структура и легкая настройка.
+
+## Лицензия
+
+Этот проект лицензирован по лицензии MIT. См. файл `LICENSE` для получения подробной информации.
